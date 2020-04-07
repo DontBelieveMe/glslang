@@ -204,6 +204,7 @@ endif(ENABLE_HLSL)
 if(ENABLE_CTEST)
     add_subdirectory(gtests)
 endif()
+add_subdirectory(CppGen)
 
 if(BUILD_TESTING)
     # glslang-testsuite runs a bash script on Windows.
